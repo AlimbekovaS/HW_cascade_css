@@ -5,7 +5,7 @@ h1 {                  /*(0/0/0/1) */
     color: red;
 }
 .page-title {        /*(0/0/1/0) */
-    color: green !important;
+    color: green;
 }
 
 a{
@@ -13,4 +13,11 @@ a{
 }
 .discount  {
     color: orange;
+}
+.sibling p+p{
+    color: rgb(244, 248, 207);
+}
+#title.page-title
+{
+    color: green;
 }

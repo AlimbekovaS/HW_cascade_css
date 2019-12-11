@@ -1,0 +1,22 @@
+li [href="#menu"]{  /* 0.1.1*/
+    color:purple;
+}
+li [href="#articles"]{ /* 0.1.1*/
+    color: green;
+}
+li [href="#articles-last"] /* 0.1.1*/
+{
+    color:red;
+}
+h3 span{             /* 0.0.2*/
+    color:green;
+}
+#articles p span{  /* 1.0.2*/
+    color:blue;
+}
+#articles p+p{   /*1.0.2*/
+    color: orange;
+}
+#articles p span+span{ /* 1.0.3*/
+    color:red;
+}
